@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="x-apple-disable-message-reformatting" />
+    <title>NexusDMC Email</title>
+    <!-- Preheader text - appears in email inbox previews -->
+    <meta
+      name="preheader"
+      content="Explore our exclusive Sikkim & Darjeeling tour packages with amazing deals!"
+    />
+    <style>
+      /* Base styles that work across email clients */
+      body {
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+        min-width: 100% !important;
+        width: 100% !important;
+        -webkit-text-size-adjust: none;
+        font-family: "Century Gothic", Arial, sans-serif;
+        background-color: #f5f5f5;
+      }
+
+      table {
+        border-spacing: 0;
+        mso-table-lspace: 0;
+        mso-table-rspace: 0;
+      }
+
+      table td {
+        border-collapse: collapse;
+        mso-line-height-rule: exactly;
+      }
+
+      td img {
+        -ms-interpolation-mode: bicubic;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+        display: block !important;
+        border: 0;
+      }
+
+      td p {
+        margin: 0;
+        padding: 0;
+      }
+
+      td div {
+        margin: 0;
+        padding: 0;
+      }
+
+      td a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      /* Responsive styles */
+      @media screen and (max-width: 600px) {
+        .container {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+
+        .mobile-padding {
+          padding-left: 10px !important;
+          padding-right: 10px !important;
+        }
+
+        .responsive-col {
+          width: 100% !important;
+          display: block !important;
+          padding: 0 0 15px 0 !important;
+        }
+
+        .responsive-col-inner {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+
+        .responsive-img {
+          width: 100% !important;
+          height: auto !important;
+        }
+
+        .logo-section {
+          text-align: center !important;
+          padding: 10px 0 !important;
+          width: 100% !important;
+        }
+
+        .phone-section {
+          text-align: center !important;
+          padding: 5px 0 15px 0 !important;
+          width: 100% !important;
+        }
+
+        .center-on-mobile {
+          text-align: center !important;
+          margin: 0 auto !important;
+        }
+
+        .stack-on-mobile {
+          display: block !important;
+          width: 100% !important;
+        }
+
+        .hide-mobile {
+          display: none !important;
+        }
+
+        .mobile-full-width {
+          width: 100% !important;
+        }
+
+        .mobile-center {
+          text-align: center !important;
+          margin: 0 auto !important;
+        }
+
+        .mobile-center table {
+          margin: 0 auto !important;
+        }
+
+        .mobile-tour-container {
+          width: 90% !important;
+          max-width: 320px !important;
+          margin: 0 auto 20px auto !important;
+        }
+
+        .hero-text {
+          font-size: 24px !important;
+          padding: 15px !important;
+        }
+
+        .social-icons td {
+          padding: 0 8px !important;
+        }
+
+        /* Reset styles for email clients */
+        body,
+        p,
+        div,
+        a,
+        span,
+        table,
+        tr,
+        td {
+          margin: 0;
+          padding: 0;
+          border: 0;
+          font-family: Arial, Helvetica, sans-serif;
+          line-height: 1.5;
+        }
+
+        /* Main container - fixed width for email */
+        .email-container {
+          width: 100%;
+          max-width: 600px;
+          margin: 0 auto;
+        }
+
+        /* Footer styles */
+        .footer-wrapper {
+          background-color: #1a2a6c;
+          width: 100%;
+          max-width: 600px;
+        }
+
+        .footer-content {
+          padding: 20px;
+          color: #ffffff;
+        }
+
+        .footer-row {
+          display: inline-block;
+          width: 100%;
+          text-align: center;
+          margin-bottom: 15px;
+        }
+
+        .footer-column {
+          display: inline-block;
+          vertical-align: middle;
+          padding: 0 10px;
+        }
+
+        .footer-left {
+          text-align: left;
+          width: 45%;
+        }
+
+        .footer-right {
+          text-align: right;
+          width: 45%;
+        }
+
+        .footer-icon {
+          display: inline-block;
+          vertical-align: middle;
+          margin-right: 5px;
+        }
+
+        .footer-text {
+          display: inline-block;
+          vertical-align: middle;
+          font-size: 14px;
+          color: #ffffff;
+        }
+
+        .footer-center {
+          text-align: center;
+          width: 100%;
+          margin: 15px 0;
+        }
+
+        .footer-divider {
+          border-top: 1px solid rgba(255, 255, 255, 0.2);
+          margin: 15px 0;
+        }
+
+        .footer-unsubscribe {
+          text-align: center;
+          font-size: 12px;
+          color: rgba(255, 255, 255, 0.7);
+        }
+
+        a {
+          color: #ffffff;
+          text-decoration: none;
+        }
+
+        /* Mobile optimization */
+        @media only screen and (max-width: 480px) {
+          .footer-column,
+          .footer-left,
+          .footer-right {
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 10px;
+          }
+
+          .footer-text {
+            font-size: 13px;
+          }
+        }
+      }
+
+      @media only screen and (max-width: 480px) {
+        td.mobile-center {
+          display: block !important;
+          text-align: center !important;
+          width: 100% !important;
+          margin-bottom: 10px !important;
+        }
+
+        .mobile-center-table {
+          margin: 0 auto !important;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Main container -->
+    <table
+      role="presentation"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      width="100%"
+      bgcolor="#f5f5f5"
+    >
+      <tr>
+        <td align="center" class="mobile-padding" style="padding: 15px 0">
+          <!-- Content container -->
+          <table
+            role="presentation"
+            class="container"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            width="600"
+            style="
+              max-width: 600px;
+              background-color: #ffffff;
+              border-radius: 8px;
+              box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+              border-bottom: 1px #333333 solid;
+            "
+          >
+            <!-- SECTION Header -->
+            <tr>
+              <td
+                style="
+                  padding: 25px 20px;
+                  background-color: #ffffff;
+                  border-radius: 8px 8px 0 0;
+                "
+              >
+                <table
+                  role="presentation"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  width="100%"
+                  style="border-collapse: separate"
+                >
+                  <tr>
+                    <!-- Logo section -->
+                    <td
+                      class="responsive-col logo-section"
+                      width="50%"
+                      align="left"
+                      style="padding: 0 15px; vertical-align: middle"
+                    >
+                      <a
+                        href="https://www.nexusdmc.com/"
+                        target="_blank"
+                        class="center-on-mobile"
+                        style="display: inline-block"
+                      >
+                        <img
+                          src="https://cdn.yourholiday.me/static/dynimg/partner/98/300x150/3182372-3182371_nexusdmc_hrz_blk.png"
+                          alt="NexusDMC Logo"
+                          width="180"
+                          style="
+                            max-width: 180px;
+                            height: auto;
+                            display: inline-block;
+                          "
+                          class="responsive-img"
+                        />
+                      </a>
+                    </td>
+                    <!-- SECTION Phone -->
+                    <td
+                      class="responsive-col phone-section"
+                      width="50%"
+                      align="right"
+                      style="padding: 0 15px; vertical-align: middle"
+                    >
+                      <table
+                        role="presentation"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        class="mobile-center"
+                        style="mso-table-lspace: 0; mso-table-rspace: 0"
+                      >
+                        <tr>
+                          <td align="right" class="center-on-mobile">
+                            <a
+                              href="tel:080 4710 4721"
+                              style="
+                                display: inline-block;
+                                text-decoration: none;
+                                color: #003c67;
+                                background-color: #f0f7ff;
+                                padding: 10px 20px;
+                                border-radius: 30px;
+                              "
+                            >
+                              <table
+                                role="presentation"
+                                border="0"
+                                cellpadding="0"
+                                cellspacing="0"
+                              >
+                                <tr>
+                                  <td
+                                    style="
+                                      vertical-align: middle;
+                                      padding-right: 8px;
+                                    "
+                                  >
+                                    <img
+                                      src="https://img.icons8.com/?size=25&id=9730&format=png&color=0a3a8a"
+                                      alt="Phone"
+                                      width="22"
+                                      height="22"
+                                      style="
+                                        display: inline-block;
+                                        width: 22px;
+                                        height: 22px;
+                                      "
+                                    />
+                                  </td>
+                                  <td
+                                    style="
+                                      vertical-align: middle;
+                                      font-family: 'Century Gothic', Arial,
+                                        sans-serif;
+                                      font-size: 17px;
+                                      font-weight: 700;
+                                      color: #003c67;
+                                    "
+                                  >
+                                    080 4710 4721
+                                  </td>
+                                </tr>
+                              </table>
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- SECTION Main content -->
+            <tr>
+              <td
+                align="center"
+                style="padding: 10px 20px 20px 20px; background-color: #ffffff"
+              >
+                <!-- Title for package section -->
+                <table
+                  role="presentation"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  width="100%"
+                  style="max-width: 600px; margin-bottom: 20px"
+                >
+                  <tr>
+                    <td
+                      align="center"
+                      style="padding: 0 0 10px 0"
+                      class="mobile-padding"
+                    >
+                      <table
+                        role="presentation"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        width="100%"
+                      >
+                        <tr></tr>
+                        <tr>
+                          <td>
+                            <h2
+                              style="
+                                margin: 0;
+                                font-family: 'Century Gothic', Arial, sans-serif;
+                                font-size: 24px;
+                                font-weight: 700;
+                                color: #1c1c21;
+                              "
+                            >
+                              Sikkim & Darjeeling Tours
+                            </h2>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td style="padding-top: 10px">
+                            <p
+                              style="
+                                margin: 0;
+                                font-family: 'Century Gothic', Arial, sans-serif;
+                                font-size: 14px;
+                                color: #616161;
+                                line-height: 1.5;
+                              "
+                            >
+                              Experience the beauty and serenity of the Eastern
+                              Himalayas with our exclusive tour packages
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- SECTION Package grid container -->
+                <table
+                  role="presentation"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  width="100%"
+                  style="max-width: 600px"
+                >
+                  <!-- SECTION First row -->
+                  <tr>
+                    <!-- ANCHOR Gangtok & Darjeeling (04N / 05D) -->
+                    <td
+                      class="responsive-col"
+                      width="33.33%"
+                      valign="top"
+                      style="padding: 0 5px 15px 5px"
+                    >
+                      <table
+                        role="presentation"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        width="100%"
+                        style="
+                          border: 1px solid #dddddd;
+                          border-radius: 8px;
+                          overflow: hidden;
+                          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+                        "
+                        class="mobile-tour-container"
+                      >
+                        <tr>
+                          <td align="center" style="padding: 0">
+                            <img
+                              src="https://cdn.yourholiday.me/static/dynimg/itinerary/45/600x300/3324396-3324395_premium_photo-1697730400710-9e565f54869e-ezgifcom-avif-to-jpg-converter.jpg"
+                              alt="Himalayan Hearts"
+                              width="100%"
+                              style="
+                                display: block;
+                                max-width: 100%;
+                                height: 116px;
+                                border: 0;
+                              "
+                              class="responsive-img"
+                            />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" style="padding: 15px">
+                            <p
+                              style="
+                                margin: 0 0 10px 0;
+                                font-family: 'Century Gothic', Arial, sans-serif;
+                                font-size: 18px;
+                                font-weight: 700;
+                                color: #1c1c21;
+                                line-height: 1.2;
+                              "
+                            >
+                              Gangtok & Darjeeling
+                            </p>
+                            <table
+                              role="presentation"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              width="100%"
+                              style="margin-bottom: 10px"
+                            >
+                              <tr>
+                                <td
+                                  style="
+                                    font-family: 'Century Gothic', Arial,
+                                      sans-serif;
+                                    font-size: 11px;
+                                    color: #617e98;
+                                    line-height: 1.4;
+                                    vertical-align: top;
+                                  "
+                                >
+                                  Gangtok 3N, Darjeeling 1N
+                                </td>
+                              </tr>
+                            </table>
+                            <p
+                              style="
+                                margin: 0 0 15px 0;
+                                font-family: 'Century Gothic', Arial, sans-serif;
+                                line-height: 1.2;
+                              "
+                            >
+                              <span
+                                style="
+                                  font-size: 20px;
+                                  font-weight: 700;
+                                  color: #1c1c21;
+                                "
+                                >₹ 17,399</span
+                              >
+                              <span style="font-size: 10px; color: #617e98">
+                                per person</span
+                              >
+                            </p>
+                            <a
+                              href="https://www.nexusdmc.com/package/gangtok--darjeeling-tour-package--2025-3182916"
+                              target="_blank"
+                              style="
+                                background-color: #ff5722;
+                                color: #ffffff;
+                                font-family: 'Century Gothic', Arial, sans-serif;
+                                font-size: 14px;
+                                font-weight: 600;
+                                text-decoration: none;
+                                padding: 10px 0;
+                                border-radius: 4px;
+                                display: block;
+                                text-align: center;
+                                width: 100%;
+                              "
+                              >View Details</a
+                            >
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+
+                    <!-- ANCHOR Majestic Love Escape (05N / 06D)  -->
+                    <td
+                      class="responsive-col"
+                      width="33.33%"
+                      valign="top"
+                      style="padding: 0 5px 15px 5px"
+                    >
+                      <table
+                        role="presentation"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        width="100%"
+                        style="
+                          border: 1px solid #dddddd;
+                          border-radius: 8px;
+                          overflow: hidden;
+                          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+                        "
+                        class="mobile-tour-container"
+                      >
+                        <tr>
+                          <td align="center" style="padding: 0">
+                            <img
+                              src="https://cdn.yourholiday.me/static/dynimg/itinerary/76/600x300/3104633-3104632_15.jpg"
+                              alt="Himalayan Summer Bliss"
+                              width="100%"
+                              style="
+                                display: block;
+                                max-width: 100%;
+                                height: 116px;
+                                border: 0;
+                              "
+                              class="responsive-img"
+                            />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" style="padding: 15px">
+                            <p
+                              style="
+                                margin: 0 0 10px 0;
+                                font-family: 'Century Gothic', Arial, sans-serif;
+                                font-size: 18px;
+                                font-weight: 700;
+                                color: #1c1c21;
+                                line-height: 1.2;
+                              "
+                            >
+                              Majestic Love Escape
+                            </p>
+                            <table
+                              role="presentation"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              width="100%"
+                              style="margin-bottom: 10px"
+                            >
+                              <tr>
+                                <td
+                                  style="
+                                    font-family: 'Century Gothic', Arial,
+                                      sans-serif;
+                                    font-size: 11px;
+                                    color: #617e98;
+                                    line-height: 1.4;
+                                    vertical-align: top;
+                                  "
+                                >
+                                  Gangtok 3N, Darjeeling 2N
+                                </td>
+                              </tr>
+                            </table>
+                            <p
+                              style="
+                                margin: 0 0 15px 0;
+                                font-family: 'Century Gothic', Arial, sans-serif;
+                                line-height: 1.2;
+                              "
+                            >
+                              <span
+                                style="
+                                  font-size: 20px;
+                                  font-weight: 700;
+                                  color: #1c1c21;
+                                "
+                                >₹ 19,899</span
+                              >
+                              <span style="font-size: 11px; color: #617e98">
+                                per person</span
+                              >
+                            </p>
+                            <a
+                              href="https://www.nexusdmc.com/package/majestic-love-escape-3329303"
+                              target="_blank"
+                              style="
+                                background-color: #0066cc;
+                                color: #ffffff;
+                                font-family: 'Century Gothic', Arial, sans-serif;
+                                font-size: 14px;
+                                font-weight: 600;
+                                text-decoration: none;
+                                padding: 10px 0;
+                                border-radius: 4px;
+                                display: block;
+                                text-align: center;
+                                width: 100%;
+                              "
+                              >View Details</a
+                            >
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+
+                    <!-- ANCHOR Himalayan Love (06N / 07D) -->
+                    <td
+                      class="responsive-col"
+                      width="33.33%"
+                      valign="top"
+                      style="padding: 0 5px 15px 5px"
+                    >
+                      <table
+                        role="presentation"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        width="100%"
+                        style="
+                          border: 1px solid #dddddd;
+                          border-radius: 8px;
+                          overflow: hidden;
+                          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+                        "
+                        class="mobile-tour-container"
+                      >
+                        <tr>
+                          <td align="center" style="padding: 0">
+                            <img
+                              src="https://cdn.yourholiday.me/static/dynimg/itinerary/58/600x300/3070581-3070580_silk.jpg"
+                              alt="Gangtok & Darjeeling Tour"
+                              width="100%"
+                              style="
+                                display: block;
+                                max-width: 100%;
+                                height: 116px;
+                                border: 0;
+                              "
+                              class="responsive-img"
+                            />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" style="padding: 15px">
+                            <p
+                              style="
+                                margin: 0 0 10px 0;
+                                font-family: 'Century Gothic', Arial, sans-serif;
+                                font-size: 18px;
+                                font-weight: 700;
+                                color: #1c1c21;
+                                line-height: 1.2;
+                              "
+                            >
+                              Himalayan Love Escape
+                            </p>
+                            <table
+                              role="presentation"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              width="100%"
+                              style="margin-bottom: 10px"
+                            >
+                              <tr>
+                                <td
+                                  style="
+                                    font-family: 'Century Gothic', Arial,
+                                      sans-serif;
+                                    font-size: 11px;
+                                    color: #617e98;
+                                    line-height: 1.4;
+                                    vertical-align: top;
+                                  "
+                                >
+                                  Gangtok 3N, Darjeeling 3N
+                                </td>
+                              </tr>
+                            </table>
+                            <p
+                              style="
+                                margin: 0 0 15px 0;
+                                font-family: 'Century Gothic', Arial, sans-serif;
+                                line-height: 1.2;
+                              "
+                            >
+                              <span
+                                style="
+                                  font-size: 20px;
+                                  font-weight: 700;
+                                  color: #1c1c21;
+                                "
+                                >₹ 25,499</span
+                              >
+                              <span style="font-size: 11px; color: #617e98">
+                                per person</span
+                              >
+                            </p>
+                            <a
+                              href="https://www.nexusdmc.com/package/himalayan-love-escape2025-3177530"
+                              target="_blank"
+                              style="
+                                background-color: #ff5722;
+                                color: #ffffff;
+                                font-family: 'Century Gothic', Arial, sans-serif;
+                                font-size: 14px;
+                                font-weight: 600;
+                                text-decoration: none;
+                                padding: 10px 0;
+                                border-radius: 4px;
+                                display: block;
+                                text-align: center;
+                                width: 100%;
+                              "
+                              >View Details</a
+                            >
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+
+                  <!-- SECTION Second row -->
+                  <tr>
+                    <!-- ANCHOR Gangtok Getaway (07N / 08D) -->
+                    <td
+                      class="responsive-col"
+                      width="33.33%"
+                      valign="top"
+                      style="padding: 0 5px 15px 5px"
+                    >
+                      <table
+                        role="presentation"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        width="100%"
+                        style="
+                          border: 1px solid #dddddd;
+                          border-radius: 8px;
+                          overflow: hidden;
+                          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+                        "
+                        class="mobile-tour-container"
+                      >
+                        <tr>
+                          <td align="center" style="padding: 0">
+                            <img
+                              src="https://cdn.yourholiday.me/static/dynimg/itinerary/47/600x300/3105363-3105362_senchal-lake-darjeeling-famous-travel-agency-for-darjeeling-popular-darjeeling-tour-package.jpg"
+                              alt="Pristine Pelling & Gorgeous"
+                              width="100%"
+                              style="
+                                display: block;
+                                max-width: 100%;
+                                height: 116px;
+                                border: 0;
+                              "
+                              class="responsive-img"
+                            />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" style="padding: 15px">
+                            <p
+                              style="
+                                margin: 0 0 10px 0;
+                                font-family: 'Century Gothic', Arial, sans-serif;
+                                font-size: 18px;
+                                font-weight: 700;
+                                color: #1c1c21;
+                                line-height: 1.2;
+                              "
+                            >
+                              Gangtok Getaway
+                            </p>
+                            <table
+                              role="presentation"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              width="100%"
+                              style="margin-bottom: 10px"
+                            >
+                              <tr>
+                                <td
+                                  style="
+                                    font-family: 'Century Gothic', Arial,
+                                      sans-serif;
+                                    font-size: 11px;
+                                    color: #617e98;
+                                    line-height: 1.4;
+                                    vertical-align: top;
+                                  "
+                                >
+                                  Gangtok 3N, Pelling 1N, Kalimpong 1N,
+                                  Darjeeling 2N
+                                </td>
+                              </tr>
+                            </table>
+                            <p
+                              style="
+                                margin: 0 0 15px 0;
+                                font-family: 'Century Gothic', Arial, sans-serif;
+                                line-height: 1.2;
+                              "
+                            >
+                              <span
+                                style="
+                                  font-size: 20px;
+                                  font-weight: 700;
+                                  color: #1c1c21;
+                                "
+                                >₹ 28,699</span
+                              >
+                              <span style="font-size: 11px; color: #617e98">
+                                per person</span
+                              >
+                            </p>
+                            <a
+                              href="https://www.nexusdmc.com/package/gangtok-getaway-2024-3201172"
+                              target="_blank"
+                              style="
+                                background-color: #0066cc;
+                                color: #ffffff;
+                                font-family: 'Century Gothic', Arial, sans-serif;
+                                font-size: 14px;
+                                font-weight: 600;
+                                text-decoration: none;
+                                padding: 10px 0;
+                                border-radius: 4px;
+                                display: block;
+                                text-align: center;
+                                width: 100%;
+                              "
+                              >View Details</a
+                            >
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+
+                    <!-- ANCHOR Sikkim Wonders (08N / 09D) -->
+                    <td
+                      class="responsive-col"
+                      width="33.33%"
+                      valign="top"
+                      style="padding: 0 5px 15px 5px"
+                    >
+                      <table
+                        role="presentation"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        width="100%"
+                        style="
+                          border: 1px solid #dddddd;
+                          border-radius: 8px;
+                          overflow: hidden;
+                          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+                        "
+                        class="mobile-tour-container"
+                      >
+                        <tr>
+                          <td align="center" style="padding: 0">
+                            <img
+                              src="https://cdn.yourholiday.me/static/dynimg/itinerary/0/600x300/3105315-3105314_apurba-nag-usvypleupk4-unsplash.jpg"
+                              alt="Sikkim Explorer"
+                              width="100%"
+                              style="
+                                display: block;
+                                /* max-width: 100%; */
+                                width: 100%;
+                                height: 116px;
+                                border: 0;
+                              "
+                              class="responsive-img"
+                            />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" style="padding: 15px">
+                            <p
+                              style="
+                                margin: 0 0 10px 0;
+                                font-family: 'Century Gothic', Arial, sans-serif;
+                                font-size: 18px;
+                                font-weight: 700;
+                                color: #1c1c21;
+                                line-height: 1.2;
+                              "
+                            >
+                              Sikkim <br />
+                              Wonders
+                            </p>
+                            <table
+                              role="presentation"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              width="100%"
+                              style="margin-bottom: 10px"
+                            >
+                              <tr>
+                                <td
+                                  style="
+                                    font-family: 'Century Gothic', Arial,
+                                      sans-serif;
+                                    font-size: 11px;
+                                    color: #617e98;
+                                    line-height: 1.4;
+                                    vertical-align: top;
+                                  "
+                                >
+                                  Gangtok 3N, Lachen 1N, Lachung 1N, Gangtok 1N,
+                                  Pelling 2N
+                                </td>
+                              </tr>
+                            </table>
+                            <p
+                              style="
+                                margin: 0 0 15px 0;
+                                font-family: 'Century Gothic', Arial, sans-serif;
+                                line-height: 1.2;
+                              "
+                            >
+                              <span
+                                style="
+                                  font-size: 20px;
+                                  font-weight: 700;
+                                  color: #1c1c21;
+                                "
+                                >₹ 37,599</span
+                              >
+                              <span style="font-size: 11px; color: #617e98">
+                                per person</span
+                              >
+                            </p>
+                            <a
+                              href="https://www.nexusdmc.com/package/sikkim-wonders-08n-09d--3179877"
+                              target="_blank"
+                              style="
+                                background-color: #ff5722;
+                                color: #ffffff;
+                                font-family: 'Century Gothic', Arial, sans-serif;
+                                font-size: 14px;
+                                font-weight: 600;
+                                text-decoration: none;
+                                padding: 10px 0;
+                                border-radius: 4px;
+                                display: block;
+                                text-align: center;
+                                width: 100%;
+                              "
+                              >View Details</a
+                            >
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+
+                    <!-- ANCHOR Mystic Mountain Magic (2024) -->
+                    <td
+                      class="responsive-col"
+                      width="33.33%"
+                      valign="top"
+                      style="padding: 0 5px 15px 5px"
+                    >
+                      <table
+                        role="presentation"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        width="100%"
+                        style="
+                          border: 1px solid #dddddd;
+                          border-radius: 8px;
+                          overflow: hidden;
+                          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+                        "
+                        class="mobile-tour-container"
+                      >
+                        <tr>
+                          <td align="center" style="padding: 0">
+                            <img
+                              src="https://cdn.yourholiday.me/static/dynimg/itinerary/84/600x300/3105214-3105213_rojan-maharjan-o69852fqa48-unsplash.jpg"
+                              alt="Eastern Himalaya Splendor"
+                              width="100%"
+                              style="
+                                display: block;
+                                max-width: 100%;
+                                height: 116px;
+                                border: 0;
+                              "
+                              class="responsive-img"
+                            />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="left" style="padding: 15px">
+                            <p
+                              style="
+                                margin: 0 0 10px 0;
+                                font-family: 'Century Gothic', Arial, sans-serif;
+                                font-size: 18px;
+                                font-weight: 700;
+                                color: #1c1c21;
+                                line-height: 1.2;
+                              "
+                            >
+                              Mystic Mountain Magic
+                            </p>
+                            <table
+                              role="presentation"
+                              border="0"
+                              cellpadding="0"
+                              cellspacing="0"
+                              width="100%"
+                              style="margin-bottom: 10px"
+                            >
+                              <tr>
+                                <td
+                                  style="
+                                    font-family: 'Century Gothic', Arial,
+                                      sans-serif;
+                                    font-size: 11px;
+                                    color: #617e98;
+                                    line-height: 1.4;
+                                    vertical-align: top;
+                                  "
+                                >
+                                  Gangtok 4N, Pelling 2N, Darjeeling 2N,
+                                  Kalimpong 1N
+                                </td>
+                              </tr>
+                            </table>
+                            <p
+                              style="
+                                margin: 0 0 15px 0;
+                                font-family: 'Century Gothic', Arial, sans-serif;
+                                line-height: 1.2;
+                              "
+                            >
+                              <span
+                                style="
+                                  font-size: 20px;
+                                  font-weight: 700;
+                                  color: #1c1c21;
+                                "
+                                >₹ 38,499</span
+                              >
+                              <span style="font-size: 11px; color: #617e98">
+                                per person</span
+                              >
+                            </p>
+                            <a
+                              href="https://www.nexusdmc.com/package/mystic-mountain-magic-2024-3335233"
+                              target="_blank"
+                              style="
+                                background-color: #0066cc;
+                                color: #ffffff;
+                                font-family: 'Century Gothic', Arial, sans-serif;
+                                font-size: 14px;
+                                font-weight: 600;
+                                text-decoration: none;
+                                padding: 10px 0;
+                                border-radius: 4px;
+                                display: block;
+                                text-align: center;
+                                width: 100%;
+                              "
+                              >View Details</a
+                            >
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- SECTION FOOTER -->
+            <table
+              cellpadding="0"
+              cellspacing="0"
+              border="0"
+              width="100%"
+              style="
+                max-width: 600px;
+                background-color: #1a2a6c;
+                color: #ffffff;
+                border-radius: 0 0 8px 8px;
+              "
+            >
+              <tr>
+                <td style="padding: 15px 20px">
+                  <!-- Single row with equally spaced items -->
+                  <table
+                    cellpadding="0"
+                    cellspacing="0"
+                    border="0"
+                    width="100%"
+                  >
+                    <tr>
+                      <!-- Phone (left) -->
+                      <td
+                        align="left"
+                        width="23%"
+                        style="text-align: left"
+                        class="mobile-center"
+                      >
+                        <table
+                          cellpadding="0"
+                          cellspacing="0"
+                          border="0"
+                          style="margin: 0 auto 0 0"
+                          class="mobile-center-table"
+                        >
+                          <tr>
+                            <td
+                              valign="middle"
+                              style="padding-right: 5px; padding-bottom: 3px"
+                            >
+                              <!-- Phone icon using HTML entity -->
+                              <span style="font-size: 16px; color: #ffffff"
+                                >&#9742;</span
+                              >
+                            </td>
+                            <td valign="middle">
+                              <a
+                                href="tel:080 4710 4721"
+                                style="
+                                  color: #ffffff;
+                                  text-decoration: none;
+                                  font-family: 'Century Gothic', Arial,
+                                    sans-serif;
+                                  font-size: 14px;
+                                "
+                                >080 4710 4721</a
+                              >
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+
+                      <!-- Website (center) -->
+                      <td
+                        align="center"
+                        width="33.33%"
+                        style="text-align: center"
+                        class="mobile-center"
+                      >
+                        <table
+                          cellpadding="0"
+                          cellspacing="0"
+                          border="0"
+                          style="margin: 0 auto"
+                          class="mobile-center-table"
+                        >
+                          <tr>
+                            <td valign="middle" style="padding-right: 5px">
+                              <img
+                                src="https://img.icons8.com/?size=22&id=5561&format=png&color=FFFFFF"
+                                alt="Globe"
+                                width="16"
+                                style="display: inline-block"
+                              />
+                            </td>
+
+                            <td valign="middle">
+                              <a
+                                href="https://www.nexusdmc.com"
+                                style="
+                                  color: #ffffff;
+                                  text-decoration: none;
+                                  font-family: 'Century Gothic', Arial,
+                                    sans-serif;
+                                  font-size: 14px;
+                                "
+                                >www.nexusdmc.com</a
+                              >
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+
+                      <!-- Email (right) -->
+                      <td
+                        align="right"
+                        width="33.33%"
+                        style="text-align: right"
+                        class="mobile-center"
+                      >
+                        <table
+                          cellpadding="0"
+                          cellspacing="0"
+                          border="0"
+                          style="margin: 0 0 0 auto"
+                          class="mobile-center-table"
+                        >
+                          <tr>
+                            <td valign="middle" style="padding-right: 5px">
+                              <!-- Email icon using HTML entity -->
+                              <span style="font-size: 16px; color: #ffffff"
+                                >&#9993;</span
+                              >
+                            </td>
+                            <td valign="middle">
+                              <a
+                                href="mailto:contact@nexusdmc.com"
+                                style="
+                                  color: #ffffff;
+                                  text-decoration: none;
+                                  font-family: 'Century Gothic', Arial,
+                                    sans-serif;
+                                  font-size: 14px;
+                                "
+                                >contact@nexusdmc.com</a
+                              >
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+
+                  <!-- Divider -->
+                  <table
+                    cellpadding="0"
+                    cellspacing="0"
+                    border="0"
+                    width="100%"
+                    style="margin-top: 15px"
+                  >
+                    <tr>
+                      <td
+                        style="
+                          height: 1px;
+                          background-color: rgba(255, 255, 255, 0.2);
+                          font-size: 0;
+                          line-height: 0;
+                        "
+                      >
+                        &nbsp;
+                      </td>
+                    </tr>
+                  </table>
+
+                  <!-- Unsubscribe row -->
+                  <table
+                    cellpadding="0"
+                    cellspacing="0"
+                    border="0"
+                    width="100%"
+                    style="margin-top: 15px"
+                  >
+                    <tr>
+                      <td
+                        align="center"
+                        style="
+                          font-family: 'Century Gothic', Arial, sans-serif;
+                          font-size: 12px;
+                          color: rgba(255, 255, 255, 0.7);
+                        "
+                      >
+                        <a
+                          href="#"
+                          style="
+                            color: rgba(255, 255, 255, 0.7);
+                            text-decoration: underline;
+                          "
+                          >Unsubscribe</a
+                        >
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <!--  -->
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
